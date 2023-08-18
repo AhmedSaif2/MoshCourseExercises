@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Intermediate
+namespace MoshCourseExercises.Exercises.Intermediate
 {
-    internal class Stack
+    public class Stack
     {
         private List<object> _stack;
         public Stack() 

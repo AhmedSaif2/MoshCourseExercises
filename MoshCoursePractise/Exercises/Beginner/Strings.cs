@@ -5,9 +5,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourses.Exercises.Beginner
+namespace MoshCourseExercisess.Exercises.Beginner
 {
-    internal class Strings
+    public class Strings
     {
         // Exercise 1: determine whether a list of numbers is consecutive or not
         public static void Exercise1()

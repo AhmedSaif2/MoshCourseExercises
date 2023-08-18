@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Beginner
+namespace MoshCourseExercises.Exercises.Beginner
 {
-    internal class Loops
+    public class Loops
     {
         // Exercise 1: Count the number of numbers divisible by 3 between 1 and 100
         public static void Exercise1()

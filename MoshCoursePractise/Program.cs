@@ -1,4 +1,12 @@
-﻿using MoshCourse.Exercises.Beginner;
-using MoshCourse.Exercises.Intermediate;
+﻿using MoshCourseExercises.Exercises.Advanced;
+using MoshCourseExercises.Exercises.Advanced.Delegates;
+using MoshCourseExercises.Exercises.Beginner;
+using MoshCourseExercises.Exercises.Intermediate;
 
-Conditionals.Exercise3();
+
+var workflow = new Workflow();
+workflow.AddActivity(new UploadActivity());
+workflow.AddActivity(new ProcessingActivity());
+workflow.AddActivity(new SendEmailActivity());
+WorkflowEngine workflowEngine = new WorkflowEngine(workflow);
+workflowEngine.ExecuteWorkflow();

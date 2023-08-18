@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Beginner
+namespace MoshCourseExercises.Exercises.Beginner
 {
-    internal class Conditionals
+    public class Conditionals
     {
         // Exercise 1: check if an input is between 1 and 10
         public static void Exercise1()

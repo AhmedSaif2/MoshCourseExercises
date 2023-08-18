@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Beginner
+namespace MoshCourseExercises.Exercises.Beginner
 {
-    internal class FilesAndDirectories
+    public class FilesAndDirectories
     {
         //Exercise 1: Display the number of words in a given file
         public static void Exercise1()

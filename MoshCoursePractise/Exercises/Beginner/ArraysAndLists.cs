@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Beginner
+namespace MoshCourseExercises.Exercises.Beginner
 {
-    internal class ArraysAndLists
+    public class ArraysAndLists
     {
         //Exercise 1: Display people who liked your post
         public static void Exercise1()

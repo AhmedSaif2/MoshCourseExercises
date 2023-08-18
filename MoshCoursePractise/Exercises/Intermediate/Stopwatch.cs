@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Intermediate
+namespace MoshCourseExercises.Exercises.Intermediate
 {
-    internal class Stopwatch
+    public class Stopwatch
     {
         private DateTime _time;
         bool _isRunning;

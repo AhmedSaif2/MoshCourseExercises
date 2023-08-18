@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoshCourse.Exercises.Intermediate
+namespace MoshCourseExercises.Exercises.Intermediate
 {
-    internal class Post
+    public class Post
     {
         private string Title;
         private string Description;
